@@ -1,0 +1,210 @@
+{
+  "items":[
+  {
+    "id": 1,
+    "id_auction": 2,
+    "image": "src/assets/photos/fundal1.jpeg",
+    "price_estimated_low": 200,
+    "price_estimated_up" : 300,
+    "title": "O zi de primvara",
+    "author": "Theodor Pallady",
+    "id_buyer": "50908310-d5db-497f-9373-6cfd84de40be",
+    "has_payed": true,
+    "final_price": 250
+  },
+  {
+    "id": 2,
+    "id_auction": 2,
+    "image": "src/assets/photos/image6.jpg",
+    "price_estimated_low": 100,
+    "price_estimated_up" : 300,
+    "title": "O zi de primvara",
+    "author": "Theodor Pallady",
+    "id_buyer": "50908310-d5db-497f-9373-6cfd84de40be",
+    "has_payed": true,
+    "final_price": 200
+  },
+  {
+    "id": 3,
+    "id_auction": 2,
+    "image": "src/assets/photos/image7.jpg",
+    "price_estimated_low": 200,
+    "price_estimated_up" : 300,
+    "title": "O zi de primvara",
+    "author": "Theodor Pallady",
+    "id_buyer": "50908310-d5db-497f-9373-6cfd84de40be",
+    "has_payed": true,
+    "final_price": 250
+  },
+  {
+    "id": 4,
+    "id_auction": 2,
+    "image": "src/assets/photos/image8.jpg",
+    "price_estimated_low": 203,
+    "price_estimated_up" : 300,
+    "title": "O zi de primvara",
+    "author": "Theodor Pallady",
+    "id_buyer": "50908310-d5db-497f-9373-6cfd84de40be",
+    "has_payed": true,
+    "final_price": 250
+  },
+  {
+    "id": 5,
+    "id_auction": 2,
+    "image": "src/assets/photos/image5.jpeg",
+    "price_estimated_low": 120,
+    "price_estimated_up" : 300,
+    "title": "O zi de primvara",
+    "author": "Theodor Pallady",
+    "id_buyer": "50908310-d5db-497f-9373-6cfd84de40be",
+    "has_payed": false,
+    "final_price": 200
+  },
+  {
+    "id": 6,
+    "id_auction": 2,
+    "image": "src/assets/photos/image6.jpg",
+    "price_estimated_low": 121,
+    "price_estimated_up" : 800,
+    "title": "O zi de primvara",
+    "author": "Theodor Pallady",
+    "id_buyer": "50908310-d5db-497f-9373-6cfd84de40be",
+    "has_payed": false,
+    "final_price": 500
+  },
+  {
+    "id": 7,
+    "id_auction": 2,
+    "image": "src/assets/photos/image6.jpg",
+    "price_estimated_low": 211,
+    "price_estimated_up" : 200,
+    "title": "O zi de primvara",
+    "author": "Theodor Pallady",
+    "id_buyer": "",
+    "has_payed": false,
+    "final_price": 0
+  },
+  {
+    "id": 8,
+    "id_auction": 2,
+    "image": "src/assets/photos/image8.jpg",
+    "price_estimated_low": 331,
+    "price_estimated_up" : 400,
+    "title": "O zi de primvara",
+    "author": "Theodor Pallady",
+    "id_buyer": "",
+    "has_payed": false,
+    "final_price": 0
+  },
+  {
+    "id": 9,
+    "id_auction": 2,
+    "image": "src/assets/photos/image6.jpg",
+    "price_estimated_low": 901,
+    "price_estimated_up" : 500,
+    "title": "O zi de primvara",
+    "author": "Theodor Pallady",
+    "id_buyer": "",
+    "has_payed": false,
+    "final_price": 0
+  },
+  {
+    "id": 10,
+    "id_auction": 2,
+    "image": "src/assets/photos/image5.jpeg",
+    "price_estimated_low": 211,
+    "price_estimated_up" : 360,
+    "title": "O zi de primvara",
+    "author": "Theodor Pallady",
+    "id_buyer": "50908310-d5db-497f-9373-6cfd84de40be",
+    "has_payed": true,
+    "final_price": 250
+  },
+  {
+    "id": 11,
+    "id_auction": 2,
+    "image": "src/assets/photos/image7.jpg",
+    "price_estimated_low": 322,
+    "price_estimated_up" : 390,
+    "title": "O zi de primvara",
+    "author": "Theodor Pallady",
+    "id_buyer": "50908310-d5db-497f-9373-6cfd84de40be",
+    "has_payed": false,
+    "final_price": 350
+  },
+  {
+    "id": 12,
+    "id_auction": 2,
+    "image": "src/assets/photos/image6.jpg",
+    "price_estimated_low": 403,
+    "price_estimated_up" : 550,
+    "title": "O zi de primvara",
+    "author": "Theodor Pallady",
+    "id_buyer": "50908310-d5db-497f-9373-6cfd84de40be",
+    "has_payed": true,
+    "final_price": 450
+  },
+  {
+    "id": 13,
+    "id_auction": 2,
+    "image": "src/assets/photos/image8.jpg",
+    "price_estimated_low": 203,
+    "price_estimated_up" : 310,
+    "title": "O zi de primvara",
+    "author": "Theodor Pallady",
+    "id_buyer": "50908310-d5db-497f-9373-6cfd84de40be",
+    "has_payed": true,
+    "final_price": 250       
+  }
+],
+"itemsBought": [
+  {
+    "image": "src/assets/photos/image8.jpg",
+    "title": "O zi de primavara",
+    "author": "Theodor Pallady",
+    "price": 203
+  },
+  {
+    "image": "src/assets/photos/image8.jpg",
+    "title": "O zi de primavara",
+    "author": "Theodor Pallady",
+    "price": 203
+  },
+  {
+    "image": "src/assets/photos/image8.jpg",
+    "title": "O zi de primavara",
+    "author": "Theodor Pallady",
+    "price": 203
+  },
+  {
+    "image": "src/assets/photos/image8.jpg",
+    "title": "O zi de primavara",
+    "author": "Theodor Pallady",
+    "price": 203
+  },
+  {
+    "image": "src/assets/photos/image8.jpg",
+    "title": "O zi de primavara",
+    "author": "Theodor Pallady",
+    "price": 203
+  },
+  {
+    "image": "src/assets/photos/image8.jpg",
+    "title": "O zi de primavara",
+    "author": "Theodor Pallady",
+    "price": 203
+  },
+  {
+    "image": "src/assets/photos/image8.jpg",
+    "title": "O zi de primavara",
+    "author": "Theodor Pallady",
+    "price": 203
+  },
+  {
+    "image": "src/assets/photos/image8.jpg",
+    "title": "O zi de primavara",
+    "author": "Theodor Pallady",
+    "price": 203
+  }
+]
+}
