@@ -29,5 +29,6 @@ app.use(lusca.xssProtection(true));
 app.use(cors());
 
 app.get("/items", apiController.getApi);
+app.get("/admin/auctions", apiController.getAdminAuctions); 
 
 export default app;
