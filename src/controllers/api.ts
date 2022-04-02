@@ -2,6 +2,7 @@ import { Response, Request, NextFunction } from "express";
 // import fetch from "node-fetch";
 import axios from "axios";
 import { data } from "jquery";
+import { ParsedQs } from "qs";
 /**
  * List of API examples.
  * @route GET /api
@@ -55,18 +56,21 @@ export const getAdminAuctions = async (req: Request, res: Response) => {
     }
 
   const resp = await axios.get("http://localhost:3002/auctions"+newQuery);
-  const totalRecords = resp.data.length
-  console.log(resp.data);
-  if(offset > resp.data.length)
-    throw new Error("Bad Request");
-  let newLimit = +limit;
-  if(limit > resp.data.length)
-    newLimit = resp.data.length;
-  // if(title)
-  // const filtered = resp.data.map(d => d.title.)
-  console.log(+offset, newLimit);
   
-  res.json({data: resp.data.slice(offset, +offset + newLimit), totalRecords: totalRecords})
+  if(offset > resp.data.length)
+  throw new Error("Bad Request");
+  let newLimit = +limit;
+  
+  const filtered = resp.data.map((d: any) => d.title.includes(title));
+  
+  const totalRecords = filtered.length
+  if(limit > filtered.length)
+    newLimit = filtered.length;
+  // if(title)
+  console.log(+offset, newLimit);
+  console.log(req.query)
+  
+  res.json({data: filtered.slice(offset, +offset + newLimit), totalRecords: totalRecords})
   // res.json({data: [], totalRecords: totalRecords})
 
 }
